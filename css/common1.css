@@ -1,0 +1,175 @@
+@charset "utf-8";
+* {
+    font-family: "Microsoft Yahei";
+}
+
+.nav>ul>li.current>a,
+.nav>ul>li>a:hover {
+    background-color: rgba(255,255,255,.0) !important;
+}
+
+@media (min-width: 992px) {
+    .navbar-wrapper {
+        height: 15% !important;
+    }
+    .navbar-wrapper .nav {
+        margin-top: 0px;
+    }
+    .navbar-wrapper .navbar-nav>ul>li,
+    .navbar-wrapper .navbar-nav>ul>li>a {
+    	color:#aaaaaa;
+        font-size: 13.5px;
+    }
+    .navbar-wrapper .navbar-nav>ul>li>a:hover {
+	    color:#ffffff;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        display: block !important;
+    }
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #004098;
+    min-width: 80px;
+    margin-left:5px;
+    z-index:999999 !important;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content li {
+	width:80%;
+	margin-left: 10%;
+}
+.dropdown-content_li_02 {
+	width:100% !important;
+	margin-left: 0% !important;
+}
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    color: #fff;
+    font-size: 10.5px;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {
+	background-color: #004098;
+}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+.dropdown:hover .dropdown {
+    background-color: #3e8e41;
+}
+
+.email{
+	  box-sizing: border-box;
+	  text-align:left;
+	  height: 25px;
+	  font-size:1.2em;
+	  border-radius:4px;
+	  border:1px solid #c8cccf;
+	  color:#6a6f77;
+	  -web-kit-appearance:none;
+	  -moz-appearance: none;
+	  display:block;
+	  outline:0;
+	  padding:0 1em;
+	  text-decoration:none;
+	  width:100%;
+}
+.email:focus{
+    border:1px solid #ff7496;
+}
+::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #6a6f77;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #6a6f77;
+}
+.email-webkit-input-placeholder{
+    color: #6a6f77;
+}
+.footer_navigation {
+	text-align: center;
+	margin-top: 20px;
+}
+.footer_navigation span {
+	display: inline-block;
+	width:6%;
+	font-size: 10.5px;
+	color: #fff;
+	text-align: center;
+	/*border: 1px solid #000077;*/
+	border-right:2px solid #fff;
+}
+.bottom { 
+	background-color: #000000;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.bottom_01 {  
+	display:inline-block;
+	margin-left:20%;
+	font-size: 12px;
+	text-align: left;
+}
+.bottom_p_01 {
+	margin-top: 10.5px;
+	font-size: 18px;
+	color:#fff;
+}
+.bottom_p_02 { 
+	margin-top: 10.5px;
+	color:#959595
+}
+.bottom_p_03 {
+	margin-top: 10.5px;
+	color:#959595
+}
+.bottom_p_04 {
+	margin-top: 15px;
+	height:25px;
+	line-height:25px;
+	font-size: 10.5px;
+    border-radius: 20px;
+    border: 1px solid #004098;
+    background-color: #004098;
+    width:150px;
+    text-align:center;
+    color:#fff;
+}
+.bottom_02 { 
+	display:inline-block;
+	margin-left:10%;
+	font-size: 12px;
+	text-align: left;
+}
+.bottom_p_05 {
+	margin-top: 10px;
+	font-size: 18px;
+	color:#fff;
+}
+.bottom_p_06 {
+	margin-top: 10.5px;
+	color:#959595
+} 
+.bottom_p_07 {
+	margin-top: 25px;
+}
+.bottom_p_07 input[type=text] {
+	font-size: 10.5px;
+	color:#666666
+}
+ 
